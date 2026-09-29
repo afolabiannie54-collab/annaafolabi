@@ -19,7 +19,7 @@ export default function FinalCTA() {
       <Reveal delay={200} className="relative mt-10 md:mt-12">
         <Link
           href="/start"
-          className="group relative inline-flex items-center gap-3 overflow-hidden px-8 py-5 md:px-12 md:py-7 rounded-full bg-white text-black font-inter text-lg md:text-2xl font-bold transition-transform duration-500 ease-out hover:scale-105"
+          className="group relative inline-flex items-center gap-2 md:gap-3 overflow-hidden px-5 py-3 md:px-12 md:py-7 rounded-full bg-white text-black font-inter text-sm sm:text-base md:text-2xl font-bold transition-transform duration-500 ease-out hover:scale-105 max-w-[90vw]"
         >
           <span
             className="absolute inset-0 bg-neutral-300 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out"
@@ -27,11 +27,9 @@ export default function FinalCTA() {
           />
           <span className="relative">Let&apos;s build a site that moves people</span>
           <svg
-            width="22"
-            height="22"
             viewBox="0 0 14 14"
             fill="none"
-            className="relative shrink-0 transition-transform duration-500 ease-out group-hover:translate-x-1.5 group-hover:-translate-y-1.5 group-hover:rotate-12"
+            className="relative w-4 h-4 md:w-[22px] md:h-[22px] shrink-0 transition-transform duration-500 ease-out group-hover:translate-x-1.5 group-hover:-translate-y-1.5 group-hover:rotate-12"
           >
             <path
               d="M3 11L11 3M11 3H4.5M11 3V9.5"
