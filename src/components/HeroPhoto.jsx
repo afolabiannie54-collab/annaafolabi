@@ -30,7 +30,7 @@ export default function HeroPhoto() {
         alt="Anna Afolabi"
         width={1195}
         height={896}
-        className="relative w-full h-auto md:w-auto md:h-full object-contain md:object-bottom grayscale-[90%]"
+        className="relative w-full h-auto lg:w-auto lg:h-full object-contain lg:object-bottom grayscale-[90%]"
         priority
       />
       <div
@@ -51,7 +51,7 @@ export default function HeroPhoto() {
           width={1195}
           height={896}
           aria-hidden="true"
-          className="w-full h-auto md:w-auto md:h-full object-contain md:object-bottom"
+          className="w-full h-auto lg:w-auto lg:h-full object-contain lg:object-bottom"
         />
       </div>
     </div>
