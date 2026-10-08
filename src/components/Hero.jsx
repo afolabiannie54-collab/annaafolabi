@@ -47,7 +47,7 @@ export default function Hero() {
           </Link>
         </div>
 
-        <div className="group relative w-full max-w-sm mt-2 lg:mt-0 lg:max-w-none lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:bottom-0 lg:w-auto lg:h-full z-10">
+        <div className="group relative w-full max-w-sm mt-2 lg:mt-0 lg:max-w-none lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:bottom-0 lg:w-auto lg:h-[calc(100%+6rem)] z-10">
           <div className="animate-hero-fade [animation-delay:750ms] relative w-full h-full">
             <div className="hidden lg:block absolute inset-8 rounded-[50%] bg-[#D4908A]/25 blur-3xl opacity-0 scale-90 transition-all duration-500 ease-out group-hover:opacity-100 group-hover:scale-100" />
             <HeroPhoto />
