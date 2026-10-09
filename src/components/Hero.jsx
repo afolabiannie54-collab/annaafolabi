@@ -4,7 +4,7 @@ import HeroPhoto from "./HeroPhoto";
 export default function Hero() {
   return (
     <section className="relative z-0 sticky top-0 lg:h-screen overflow-hidden px-6 md:px-12 pt-24 lg:pt-28 flex flex-col items-center text-center">
-      <h1 className="animate-hero-reveal font-playfair text-[clamp(2rem,8.5vw,6rem)] lg:text-[clamp(2rem,8.5vw,6.25rem)] font-semibold text-black tracking-tighter leading-[1.05] pb-2 md:pb-3 max-w-5xl shrink-0">
+      <h1 className="animate-hero-reveal font-playfair text-[clamp(2rem,8.5vw,6rem)] font-semibold text-black tracking-tighter leading-[1.05] pb-2 md:pb-3 max-w-5xl shrink-0">
         Sites and Systems that
         <br className="hidden lg:block" />
         <span className="lg:hidden"> </span>
