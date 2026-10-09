@@ -16,7 +16,7 @@ export default function Hero() {
           Websites and automated systems to sell, serve, and save you time.
         </p>
 
-        <div className="animate-hero-fade [animation-delay:950ms] flex items-center justify-center gap-4 mt-6 lg:mt-0 lg:justify-start lg:gap-6 lg:absolute lg:right-6 xl:right-12 lg:bottom-10 z-10">
+        <div className="animate-hero-fade [animation-delay:950ms] flex items-center justify-center gap-4 mt-6 lg:mt-0 lg:justify-start lg:gap-6 lg:absolute lg:right-6 xl:right-12 lg:bottom-10 z-20">
           <Link
             href="/start"
             className="group inline-flex items-center gap-2 px-6 py-3 rounded-full bg-black text-white font-inter font-semibold hover:bg-white hover:text-black border-2 border-black transition-all duration-200"
